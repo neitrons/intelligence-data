@@ -79,7 +79,7 @@ async function main() {
 
   try {
     await fs.promises.writeFile(
-      path.join(__dirname, "result.json"),
+      path.join(__dirname, "convertable.json"),
       writeableData
     );
     console.log("File created successfully!");
